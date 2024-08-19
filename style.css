@@ -1,0 +1,133 @@
+#header{
+    background-image: url(/home.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    height: 745px;
+}
+#header h1{
+    font: 30px "Roboto";
+}
+#header a{
+    font: 15px "Open Sans";
+    color: #ffffff;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+#header h2{
+    font: 90px "Roboto"; 
+    color: white;
+    margin-left: 50px;
+}
+#header p{
+    font: 20px "Open Sans";
+    margin-top: 25px;
+    color: white;
+    margin-left: 50px;
+}
+#header button{
+    padding: 14px 32px 15px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 50px;
+    background-image: linear-gradient(135deg, #478ac9, #24d9ea);
+}
+#blog{
+    background-color: #e9f2fa;
+}
+.blog{background-color: white;
+height: 20%;}
+#blog img{
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+}
+#blog h2{
+    font: 36px "Roboto";
+    color: #478ac9;
+}
+#blog span{
+    font: 18px "Open Sans";
+    color: #4c7397;
+}
+#blog p{
+    font: 20px "Open Sans";
+}
+.fa-location-dot{
+    color: gray;
+    font-size: 26px;
+}
+#page{
+    background-image: url(/page.jpeg);
+    object-fit: cover;
+    background-size: cover;
+    height: 540px;
+    color: white;
+}
+#page h2{
+    font: 36px "Roboto";
+}
+#page p{
+    font: 20px "Open Sans";
+    margin-top: 20px;
+}
+#page button{
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    background: none;
+    margin-top: 40px;
+}
+#foot h2{
+    font: 30px "Roboto";
+    margin: 20px 0px 0px;
+}
+#foot p{
+    color: #478ac9;
+    font: 16px "Open Sans";
+    font-weight: 500;
+    margin-top: 25px;
+}
+#foot span{
+    color: #999999;
+    font: 16px "Open Sans";
+}
+input{
+    background-color: #f2f2f2;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+}
+#foot button{
+    padding: 10px 30px;
+    background-color: #478ac9;
+    color: white;
+    border: none;
+}
+#foot i{
+    color: #999999;
+    font: 25px;
+}
+@media (max-width:576px){
+    #header h2{
+        font: 48px "Roboto";
+    }
+    #header p{
+        font: 20px "Open Sans";
+        margin-top: 25px;
+    }
+    #blog h2{
+        font: 30px "Roboto";
+        color: #478ac9;
+    }
+}
+@media (max-width:768px){
+    #blog p{
+        font: 15px "Open Sans";
+    }
+    .fa-location-dot{
+        color: gray;
+        font-size: 20px;
+    }
+}
